@@ -9,35 +9,71 @@
 </head>
 
 <body>
+  <!-- Header Section -->
   <header>
     <div class="navbar">
-      <h1 class="logo">LearnHub</h1>
-      <nav>
-        <ul class="nav-links">
-          <li><a href="#courses">Courses</a></li>
-          <li><a href="#about">About Us</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
+      <div class="logo">E-Learn</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#courses">Courses</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
     </div>
   </header>
 
-  <main>
-    <section class="hero">
-      <div class="hero-content">
-        <h1>Welcome to LearnHub</h1>
-        <p>Empower your future with our expertly curated courses!</p>
-        <a href="#courses" class="btn">Explore Courses</a>
-      </div>
-    </section>
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <h1>Welcome to E-Learning</h1>
+      <p>Your journey to knowledge starts here. Explore our courses and transform your future.</p>
+      <a href="#courses" class="btn">Explore Courses</a>
+    </div>
+  </section>
 
-    <section id="courses" class="courses">
-      <h2>Our Courses</h2>
-      <div class="course-list">
-        <div class="course-card">
-          <h3>Web Development</h3>
-          <p>Learn how to build stunning websites from scratch.</p>
-        </div>
-        <div class="course-card">
-          <h3>Data Science</h3>
-          <p>Master data analysis, visualization, and machine
+  <!-- Courses Section -->
+  <section class="courses" id="courses">
+    <h2>Our Courses</h2>
+    <div class="course-list">
+      <div class="course-card">
+        <h3>Web Development</h3>
+        <p>Learn HTML, CSS, JavaScript, and more to become a professional web developer.</p>
+      </div>
+      <div class="course-card">
+        <h3>Data Science</h3>
+        <p>Master Python, Machine Learning, and Data Analysis to unlock new career opportunities.</p>
+      </div>
+      <div class="course-card">
+        <h3>Digital Marketing</h3>
+        <p>Explore SEO, Social Media Marketing, and PPC strategies to grow any business.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <h2>About Us</h2>
+    <p>
+      At E-Learn, we are dedicated to providing top-notch education with expert instructors, innovative tools, and a
+      supportive learning environment. Join thousands of learners and achieve your goals today.
+    </p>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2025 E-Learn. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>
